@@ -1,0 +1,39 @@
+\documentclass{article}
+
+\begin{document}
+
+\title{Dokaz s protislovjem}
+\author{Luka Uršič, 89221145}
+\date{\today}
+
+\maketitle
+
+\section{Trditev}
+
+Algoritem, ki razporedi (sortira) naloge glede na čas njihovega reševanja (od najkrajšega do najdaljšega) in jih nato reši v tem vrstem redu, maksimizira skupno število točk.
+
+\section{Dokaz}
+
+Predpostavimo, da algoritem ni optimalen, torej obstaja boljša razporeditev nalog, ki prinese več točk.
+
+\subsection{Optimalna razporeditev}
+
+Naj bo optimalna razporeditev nalog $O$, ki prinese več točk, kot naša razporeditev $R$. V razporeditvi $O$ naj bo naloga $i$ prva naloga, ki ni ista kot v razporeditvi $R$. V $O$ je naloga $i$ pred nalogo $j$, čeprav $i$ traja več kot $j$.
+
+\subsection{Zamenjava}
+
+Če bi zamenjali $i$ in $j$ nalogi v razporeditvi $O$, bi zmanjšali celoten čas od trenutka, ko rešujemo $i$, s čemer bi povečali število točk, pridobljenih od naloge $i$.
+
+\subsection{Protislovje}
+
+Po zamenjavi bi lahko dobili več ali enako število točk kot v $R$, kar nas privede do kontradikcije s predpostavko, da je $O$ boljša razporeditev od $R$.
+
+\[
+    \Rightarrow\!\Leftarrow
+\]
+
+\section{Zaključek}
+
+Predpostavka torej ne drži. Algoritev v trditvi je optimalen.
+
+\end{document}
