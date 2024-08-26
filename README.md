@@ -3,12 +3,12 @@
 
 Instructions from [UPM](https://putka-upm.acm.si/tasks/t/rok/en/):
 
-Deadlines for submitting homework assignments should not be missed. Unless explicitly permitted. The professor gave to the students in his course N tasks that they must submit by the given deadlines. He figured out that this requires a substantial amount of work. But instead of reducing the amount of work, he adjusted the scoring. Thus, it is not necessary to submit all tasks by their respective deadlines, but the number of points received for the task depends on the time of submission.
 
-Among the given N tasks, the i-th requires xi minutes to solve, and the deadline for its submission is ri. Times are measured in minutes from the beginning of the semester. If you submit the i-th task at the time ti, you will receive ri - ti points for it. So, if you submit the assignment early, you will receive positive points. If you miss the submission deadline, you will receive negative points for it. The total points for homework in the course are equal to the sum of the points for all assignments.
-
-Write a program that will calculate the maximum possible number of homework points you can score in the course. You must complete all the assignments.
-
+>Deadlines for submitting homework assignments should not be missed. Unless explicitly permitted. The professor gave to the students in his course N tasks that they must submit by the given deadlines. He figured out that this requires a substantial amount of work. But instead of reducing the amount of work, he adjusted the scoring. Thus, it is not necessary to submit all tasks by their respective deadlines, but the number of points received for the task depends on the time of submission.
+>
+>Among the given N tasks, the i-th requires xi minutes to solve, and the deadline for its submission is ri. Times are measured in minutes from the beginning of the semester. If you submit the i-th task at the time ti, you will receive ri - ti points for it. So, if you submit the assignment early, you will receive positive points. If you miss the submission deadline, you will receive negative points for it. The total points for homework in the course are equal to the sum of the points for all assignments.
+>
+>Write a program that will calculate the maximum possible number of homework points you can score in the course. You must complete all the assignments.
 
 ## Input data:
 The first line contains the number of tasks N, which are specified in the following lines. Each task is described by space-separated integers ri and xi.
